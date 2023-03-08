@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Frontend Mentor - [Pricing Component With Toggle Master](https://www.frontendmentor.io/solutions/pricingcomponentwithtogglemasterreact-awfgkCIdPQ)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Design preview for the Desktop Pricing Component With Toggle Master coding challenge](./src/Design/Desktop.jpg)
+![Design preview for the Mobile Pricing Component With Toggle Master coding challenge](./src/Design/Mobile.jpg)
 
-## Available Scripts
 
-In the project directory, you can run:
+## Deployed Site
+[Pricing Component With Toggle Master](https://pricing-component-with-toggle-master-react.vercel.app/)
 
-### `npm start`
+## Summary
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[Frontend Mentor](https://www.frontendmentor.io) challenge to recreate the [Sunnyside Agency Landing Page](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef) using React and Sass
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Technology Used
+#### Front-end
+- React
+- HTML
+- CSS
+- Figma
+- Vercel for Deployment
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## React Component Structure
+- index.js
+    - src/App.js
+        - ToggleSwithc
+        - Card
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Welcome! 👋
 
-### `npm run eject`
+Thanks for checking out this front-end coding challenge.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## The challenge
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Your challenge is to build out this landing page and get it looking as close to the design as possible.
 
-## Learn More
+This challenge focuses mostly on HTML & CSS. There's a tiny bit of JS included for the mobile navigation toggle. But you could also choose to do this without JS!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Your users should be able to:
 
-### Code Splitting
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
 
-### Analyzing the Bundle Size
+## Where to find everything
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design.
 
-### Making a Progressive Web App
+The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
 
-### Advanced Configuration
+You will find all the required assets in the `/images` folder. The assets are already optimized.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
