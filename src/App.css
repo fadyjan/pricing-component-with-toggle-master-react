@@ -1,38 +1,32 @@
+:root {
+  --dark-gray-blue: #494c5f;
+  --gray-blue: #6d708d;
+  --light-gray-blue: #b3b5c6;
+  --very-light-grayish-blue: #f6f6fe;
+  --main-color: #696fdd;
+  --secondary-color: #a3a8f0;
+  --gradient: hsl(236, 72%, 79%), hsl(237, 63%, 64%);
+  --purple: hsl(237, 63%, 64%);
+  --very-light-grayish-blue: hsl(240, 78%, 98%);
+  --light-grayish-blue: hsl(234, 14%, 74%);
+  --grayish-blue: hsl(233, 13%, 49%);
+  --dark-grayish-blue: hsl(232, 13%, 33%);
+  --white: white;
+  --body-font: "Montserrat", sans-serif;
+  --transition: all ease-in-out 0.3s;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  min-height: 100vh;
+  width: 100vw;
+  background-image: url(https://res.cloudinary.com/dxayftnxb/image/upload/v1578365136/bg-top_hkofqi.svg),
+    url(https://res.cloudinary.com/dxayftnxb/image/upload/v1578365114/bg-bottom_ojkfqc.svg);
+    background-repeat: no-repeat;
+    background-position: right top, left bottom;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
