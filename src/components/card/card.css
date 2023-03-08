@@ -1,0 +1,90 @@
+.CardContainer {
+  padding: 1rem 2rem;
+  flex-basis: 366px;
+  height: 467px;
+  background: #fff;
+  color: #494c5f;
+  box-shadow: -1px -1px 10px #777676;
+}
+.CardContainer p {
+  border-top: 1px solid #b3b5c6;
+  padding: 1rem 0;
+}
+
+#MainContainer div{
+  border-radius: 10px;
+}
+
+
+#Professional{
+  background: linear-gradient(135deg, #a3a8f0, #696fdd);
+  color: #f6f6fe;
+  height: 80%;
+  z-index: 10;
+  padding: 1rem 2rem;
+}
+#InnerWrapperProfessional {
+  padding: 10px 20px;
+}
+
+#InnerWrapperBasic{
+  color: hsl(234, 14%, 74%);;
+}
+#InnerWrapperMaster{
+  color: hsl(234, 14%, 74%);;
+}
+
+.price-container span{
+  font-size: 4.6rem;
+}
+
+
+.card-button {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  line-height: 45px;
+  width: 100%;
+  height: 45px;
+  background: linear-gradient( 90deg, var(--secondary-color) 0%, var(--main-color) 100% );
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: var(--very-light-grayish-blue);
+  border: 0px;
+  margin-bottom: 30px;
+  border-radius: 7px;
+}
+
+
+#BtnProfessional{
+  color: var(--purple);
+  background: white;
+}
+
+
+.card-button:hover {
+  background: transparent;
+  border-color: var(--light-grayish-blue);
+  color: var(--purple);
+  border-width: 1px;
+  transition: var(--transition);
+  border: 1px solid black;
+}
+#BtnProfessional:hover {
+  background-color: transparent;
+  border-color: var(--white);
+  color: var(--white);
+  border-width: 1px;
+  transition: var(--transition);
+}
+.price-month{
+  color: black;
+}
+
+#PriceProfessional {
+  color: white;
+}
+
+
