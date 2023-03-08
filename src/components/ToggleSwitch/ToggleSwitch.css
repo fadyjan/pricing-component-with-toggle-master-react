@@ -1,0 +1,73 @@
+
+#MainContainer{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 680px;
+  }
+  input[type=checkbox]{
+      height: 0;
+      width: 0;
+      visibility: hidden;
+  }
+  
+  #LabelToggle {
+    margin: 20px;
+      cursor: pointer;
+      text-indent: -9999px;
+      width: 100px;
+      height: 45px;
+      background: grey;
+      display: block;
+      border-radius: 100px;
+      position: relative;
+  }
+  
+  #LabelToggle:after {
+      content: '';
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      width: 40px;
+      height: 37px;
+      background: #fff;
+      border-radius: 90px;
+      transition: 0.3s;
+  }
+  
+  input:checked + #LabelToggle {
+      background: linear-gradient( 90deg, var(--secondary-color) 0%, var(--main-color) 100% );;
+  }
+  
+  input:checked + #LabelToggle:after {
+      left: calc(100% - 5px);
+      transform: translateX(-100%);
+  }
+  
+  #LabelToggle:active:after {
+      width: 130px;
+  }
+  
+  #ToggleContainer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+  }
+
+  @media (max-width:600px) {
+    #MainContainer{
+      flex-direction: column;
+      width: 90%;
+      height: 1523px;
+      row-gap: 2%
+      ;
+    }
+    .CardContainer{
+        width: 80%;
+        box-sizing: border-box;
+        
+    }
+  }
